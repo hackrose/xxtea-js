@@ -1,5 +1,8 @@
 # XXTEA for HTML5
 
+   for bower
+
+
 ## Introduction
 
 XXTEA is a fast and secure encryption algorithm. This is a XXTEA library for HTML5.
