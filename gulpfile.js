@@ -4,13 +4,12 @@ var gulp = require('gulp'),
     del = require('del');
 
 gulp.task('clear', function(cb){
-    del(['dist/xxtea.min.js'], cb);
+    del(['dist/js/xxtea.min.js'], cb);
 });
 
 gulp.task('default', ['clear'], function() {
     return gulp.src('lib/xxtea.js')
         .pipe(uglify())
         .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('dist/js'));
 });
-
