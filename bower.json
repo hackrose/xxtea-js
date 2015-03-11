@@ -1,0 +1,25 @@
+{
+    "name": "xxtea",
+    "description": "XXTEA is a fast and secure encryption algorithm. This is a XXTEA library for HTML5.",
+    "version": "1.0.0",
+    "keywords": [
+        "css",
+        "js",
+        "xxtea",
+        "encryption"
+    ],
+    "homepage": "https://github.com/xxtea/xxtea-html5",
+    "main": [
+        "dist/js/xxtea.min.js"
+    ],
+    "ignore": [
+        "lib",
+        ".gitignore",
+        "bower.json",
+        "gulpfile.js",
+        "README_zh_CN.md",
+        "README.md"
+    ],
+    "dependencies": {
+    }
+}
