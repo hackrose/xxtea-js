@@ -1,7 +1,6 @@
 # XXTEA for HTML5
 
-   for bower
-
+   For  bower(http://bower.io), a package manager for the web.
 
 ## Introduction
 
@@ -15,11 +14,11 @@ It is different from the original XXTEA encryption algorithm. It encrypts and de
 <!DOCTYPE html>
 <html>
     <head>
-        <title>XXTEA test</title>
         <meta charset="UTF-8">
-        <script src="xxtea.js" type="text/javascript"></script>
+        <title>XXTEA test</title>
     </head>
     <body>
+        <script src="/dist/js/xxtea.min.js" type="text/javascript"></script>
         <script type="text/javascript">
             var str = "Hello World! 你好，中国！";
             var key = "1234567890";
